@@ -6,7 +6,6 @@ function mostrarImc(){
     document.getElementById("calculoImc").innerHTML = `
     <b>${resultado}</b>
     `
-    
     if (imc <= 18){
         alert("Tenés bajo peso");
     }
@@ -15,7 +14,7 @@ function mostrarImc(){
         alert("Tenés peso saludable");
     }
     
-    else (imc > 25);{
+    else {
         alert("Tenés sobrepeso");
     }
     
